@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* --- 顏色設定 (Color Palette) --- */
+  --color-paper: #F9F7F2;
+  --color-ink: #4A4A4A;
+  
+  /* 橄欖綠系列 */
+  --color-olive-light: #B5C19C;
+  --color-olive: #8E9775;
+  --color-olive-dark: #6B7355;
+  
+  /* 輔助色 */
+  --color-sakura: #E28E8E;
+  --color-ocean: #8EA6E2;
+
+  /* --- 字體設定 (Typography) --- */
+  --font-sans: "Zen Kaku Gothic New", sans-serif;
+  --font-serif: "Zen Old Mincho", serif;
+
+  /* --- 陰影設定 (Shadows) --- */
+  --shadow-soft: 0 8px 30px rgba(0,0,0,0.06);
+}
+
+/* --- 全域樣式 --- */
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
